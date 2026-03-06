@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":2275},"train/loss":0.2853304960690042,"train/avg_entropy":0.28730465163652225,"_timestamp":1.7726817421580954e+09,"_runtime":2275.249837739,"_step":749,"val/avg_reward":0.484,"val/avg_format_reward":0.948}
