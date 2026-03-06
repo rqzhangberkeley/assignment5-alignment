@@ -186,6 +186,8 @@ def main(args):
             correct_prompts = [repeated_prompts[i] for i in range(len(repeated_prompts)) if correct_idx[i]]
             correct_generated_solutions = [outputs_text[i] for i in range(len(outputs_text)) if correct_idx[i]]
             num_correct_responses = len(correct_prompts)
+
+            import pdb; pdb.set_trace()
             if num_correct_responses == 0:
                 print(f'No correct responses found. Skipping this step.')
                 continue
